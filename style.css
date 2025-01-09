@@ -1,0 +1,197 @@
+/* https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ba_kyLazqu7HPXRAYVKRAQ.png */
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 0.5;
+}
+header {
+    
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: hsl(147, 86%, 92%);
+}
+
+hr {
+    border: dotted;
+    border-bottom: none;
+    width: 120px;
+    border-width: 6px;
+    color: #72afaf;
+    margin: 60px auto;
+}
+
+.navigate-menu {
+    background-color: hsl(147, 83%, 82%);
+    border-radius: 30px;
+}
+
+.navigate-menu li {
+    list-style: none;
+    float: left;
+    margin: 13px 15px;
+    font-family: sans-serif;
+}
+
+.navigate-menu ul {
+    overflow: auto;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.navigate-menu li a {
+    text-decoration: none;
+}
+
+.navigate-menu li a:hover {
+    color: rgb(245, 22, 22);
+}
+
+.first-container {
+    background-color: hsl(147, 86%, 92%);
+    padding: 10px 5px 0;
+}
+.middle-container { 
+    display: flex;           /* Enable flexbox on the container */
+    flex-direction: column;  /* Stack children (e.g., <h2> and <p>) vertically */
+    justify-content: center; /* Vertically center the children */
+    align-items: center;     /* Horizontally center the children */
+        /* Make the container take the full height of the viewport */
+    text-align: center;      /* Center the text inside the paragraph */
+}
+
+
+
+
+.intro {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 70px auto 70px auto;
+    text-align: left;
+    line-height: 1.3;
+
+}
+
+.skills h2 {
+    font-size: 40px;
+    color: rgb(54, 214, 206);
+    font-family: 'Pacifico', cursive;
+}
+
+.skill-row h3 {
+    color: rgb(54, 214, 206);
+}
+
+.weblogo1 {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+.weblogo2 {
+    width: 150px;
+    float: right;
+
+}
+
+.btn {
+    background: #18dba1;
+    background-image: -webkit-linear-gradient(top, #18dba1, #8affdc);
+    background-image: -moz-linear-gradient(top, #18dba1, #8affdc);
+    background-image: -ms-linear-gradient(top, #18dba1, #8affdc);
+    background-image: -o-linear-gradient(top, #18dba1, #8affdc);
+    background-image: linear-gradient(to bottom, #18dba1, #8affdc);
+    -webkit-border-radius: 120;
+    -moz-border-radius: 120;
+    border-radius: 120px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 27px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 160px;
+    margin: 30px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #076969;
+}
+
+.btn:hover {
+    background: #0aa6a6;
+    background-image: -webkit-linear-gradient(top, #0aa6a6, #00c7c7);
+    background-image: -moz-linear-gradient(top, #0aa6a6, #00c7c7);
+    background-image: -ms-linear-gradient(top, #0aa6a6, #00c7c7);
+    background-image: -o-linear-gradient(top, #0aa6a6, #00c7c7);
+    background-image: linear-gradient(to bottom, #0aa6a6, #00c7c7);
+    text-decoration: none;
+}
+
+.footer {
+    margin: auto;
+    background-color: hsl(147, 83%, 82%);
+    padding: 20px;
+}
+
+.footer a {
+    margin: auto 10px;
+}
+
+.footer a:hover {
+    color: #05a1a4;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 280px;
+    width: 100px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    width: 100px;
+}
+
+.mountain {
+    mix-blend-mode: darken;
+    width: 590px;
+    padding-top: 50px;
+    height: 250px;
+}
